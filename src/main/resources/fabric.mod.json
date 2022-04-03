@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "anamm",
+  "version": "${version}",
+
+  "name": "Absolutely Not A Minimap Mod",
+  "description": "This is absolutely not a minimap mod.\nHa! yea I'm joking, a minimap plus themes (maybe)",
+  "authors": [
+    "pkstDev"
+  ],
+
+  "license": "MIT",
+  "icon": "assets/anamm/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "committee.nova.anamm.ANAMM"
+    ]
+  },
+  "mixins": [
+    "anamm.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
